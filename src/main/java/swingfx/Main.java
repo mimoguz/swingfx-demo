@@ -57,7 +57,6 @@ public class Main {
         var button = new Button("Title button");
         button.setPrefWidth(100.0);
         button.setMaxHeight(Double.MAX_VALUE);
-        HBox.setHgrow(button, Priority.ALWAYS);
 
         var box = new HBox(button);
 
